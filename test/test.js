@@ -4,9 +4,9 @@ const { describe, it, afterEach } = require('mocha')
 const assert = require('assert')
 
 const mcVersion = '1.8'
-const registry = require('prismarine-registry')(mcVersion)
+const registry = require('reinarpg-registry')(mcVersion)
 const windows = require('..')(registry)
-const Item = require('prismarine-item')(registry)
+const Item = require('reinarpg-item')(registry)
 
 function getAssertFunctions (slot) {
   return {

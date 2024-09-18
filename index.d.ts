@@ -1,9 +1,9 @@
 /// <reference types="node" />
-/// <reference types="prismarine-item" />
+/// <reference types="reinarpg-item" />
 
 import {EventEmitter} from 'events';
 import TypedEmitter from 'typed-emitter'
-import {Item} from 'prismarine-item';
+import {Item} from 'reinarpg-item';
 
 export class Window<T = unknown> extends (EventEmitter as new <T>() => TypedEmitter<T>)<T> {
     constructor (id: number, type: number | string, title: string, slotCount: number, inventorySlotsRange: { start: number, end: number }, craftingResultSlot: number, requiresConfirmation: boolean);

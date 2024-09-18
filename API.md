@@ -116,7 +116,7 @@ In vanilla client, this is the item you are holding with the mouse cursor.
 
 Change the `slot` to contain the `newItem`. Emit the `updateSlot` events.
 
-Returns a list of changed slots mirroring the [Window Click packet format](https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/1.17.1/protocol.json#L4831-L4852)
+Returns a list of changed slots mirroring the [Window Click packet format](https://github.com/PrismarineJS/reinarpg-data/blob/master/data/pc/1.17.1/protocol.json#L4831-L4852)
 
 #### window.updateSlot(slot, newItem)
 
@@ -126,7 +126,7 @@ Change the `slot` to contain the `newItem`. Emit the `updateSlot` events.
 
  * `start` - start slot to begin the search from
  * `end` - end slot to end the search
- * `item` - numerical id that you are looking for [check the list](https://minecraft-data.prismarine.js.org/?d=items)
+ * `item` - numerical id that you are looking for [check the list](https://reinarpg-data.prismarine.js.org/?d=items)
  * `metadata` -  metadata value that you are looking for. `null`
    means unspecified.
  * `notFull` - (optional) - if `true`, means that the returned
@@ -138,7 +138,7 @@ Change the `slot` to contain the `newItem`. Emit the `updateSlot` events.
 
  * `start` - start slot to begin the search from
  * `end` - end slot to end the search
- * `item` - name that you are looking for [check the list](https://minecraft-data.prismarine.js.org/?d=items)
+ * `item` - name that you are looking for [check the list](https://reinarpg-data.prismarine.js.org/?d=items)
  * `metadata` -  metadata value that you are looking for. `null`
    means unspecified.
  * `notFull` - (optional) - if `true`, means that the returned
@@ -148,7 +148,7 @@ Change the `slot` to contain the `newItem`. Emit the `updateSlot` events.
 
 Search in the player inventory.
 
- * `item` - numerical id or name that you are looking for [check the list](https://minecraft-data.prismarine.js.org/?d=items)
+ * `item` - numerical id or name that you are looking for [check the list](https://reinarpg-data.prismarine.js.org/?d=items)
  * `metadata` -  metadata value that you are looking for. `null`
    means unspecified.
  * `notFull` - (optional) - if `true`, means that the returned
@@ -158,7 +158,7 @@ Search in the player inventory.
 
 Search in the container of the window.
 
- * `item` - numerical id or name that you are looking for [check the list](https://minecraft-data.prismarine.js.org/?d=items)
+ * `item` - numerical id or name that you are looking for [check the list](https://reinarpg-data.prismarine.js.org/?d=items)
  * `metadata` -  metadata value that you are looking for. `null`
    means unspecified.
  * `notFull` - (optional) - if `true`, means that the returned

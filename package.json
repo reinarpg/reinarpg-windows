@@ -15,8 +15,8 @@
     "url": "git+ssh://git@github.com/PrismarineJS/prismarine-windows.git"
   },
   "dependencies": {
-    "prismarine-item": "^1.12.2",
-    "prismarine-registry": "^1.7.0",
+    "reinarpg-item": "github:reinarpg/reinarpg-item",
+    "reinarpg-registry": "github:reinarpg/reinarpg-registry",
     "typed-emitter": "^2.1.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 function loader (registryOrVersion) {
-  const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
-  const Item = require('prismarine-item')(registry)
+  const registry = typeof registryOrVersion === 'string' ? require('reinarpg-registry')(registryOrVersion) : registryOrVersion
+  const Item = require('reinarpg-item')(registry)
   const Window = require('./lib/Window')(Item, registry)
 
   let windows
